@@ -14,7 +14,7 @@ body {
 }
 
 img {
-  max-width: 100%;
+  max-width: 50%;
 }
 
 .grid {
@@ -24,12 +24,22 @@ img {
   grid-row: 2;
 }
 
-header nav li {
+article {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-stories {
+  maix-width: 1080px;
+  margin: 0 auto;
+}
+
+header nav li a {
   background-color: black;
   color: white;
 }
 
-header nav li:hover {
+header nav li a:hover {
   background-color: white;
   color: black;
 }
@@ -38,6 +48,7 @@ header nav li:hover {
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 h1 {
